@@ -9,7 +9,7 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 $ echo ' eval $(/opt/homebrew/bin/brew shellenv)'  >> /Users/jasonnewton/ .zprofile eval $(/opt/homebrew/bin/brew shellenv)
 ```
 
-** Check if this actually works **
+**Check if this actually works**
 
 ``` 
 $ brew help
