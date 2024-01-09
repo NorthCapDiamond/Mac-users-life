@@ -55,4 +55,4 @@ wc             2 17 33880
 zombie         2 18 31176
 console        3 19 0
 ```
-## 😎😎😎
+That's it for today)
