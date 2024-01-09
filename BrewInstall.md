@@ -6,8 +6,8 @@ Original link: https://brew.sh
 
 ```
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-$ echo ' eval $(/opt/homebrew/bin/brew shellenv)'  >> /Users/jasonnewton/ .zprofile eval $(/opt/homebrew/bin/brew shellenv)
 ```
+You're gonna catch Warning... If you want brew to be in your $PATH, just copy/paste the solution from this warning.
 
 **Check if this actually works**
 
