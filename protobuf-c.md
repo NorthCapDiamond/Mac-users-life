@@ -34,7 +34,7 @@ $ cd protobud-c
 $ sudo ./autogen.sh && sudo ./configure && sudo make && sudo make install
 $ make check
 ```
-
+Docs for you: https://github.com/protobuf-c/protobuf-c
 That's it for today)
 
 
