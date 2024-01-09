@@ -14,3 +14,4 @@ You're gonna catch Warning... If you want brew to be in your $PATH, just copy/pa
 ``` 
 $ brew help
 ```
+That's it for today)
