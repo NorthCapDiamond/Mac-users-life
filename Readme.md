@@ -10,4 +10,4 @@ Hello everyone, In this file I'm going to write some ways to solve problems and 
 
 - [protobuf-c install](https://github.com/NorthCapDiamond/Mac-users-life/blob/main/protobuf-c.md)
 
-
+- [Special keyboard symbols](https://github.com/NorthCapDiamond/Mac-users-life/blob/main/alt_keys.png)
