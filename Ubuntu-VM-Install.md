@@ -99,7 +99,11 @@ Now you'll have to set up your system. Interface of Ubuntu is going to help you 
 
 **Step 5**
 
-to be continued !
+Launch you Ubuntu with better hardware options :
+
+```
+qemu-system-x86_64 -hda ubuntu.qcow2 -boot d -m 2G -usb -machine q35 -cpu max -smp cores=8,threads=1,sockets=1  &
+```
 
 
 
