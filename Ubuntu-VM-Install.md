@@ -18,7 +18,7 @@ $ multipass find
 
 Prepare VM
 ```
-$multipass launch 22.04 -n myvm -c 4 -m 4G -d 50G
+$ multipass launch 22.04 -n myvm -c 4 -m 4G -d 50G
 ```
 
 **Step 3**
@@ -45,7 +45,7 @@ $multipass list
 **To start VM**:
 
 ```
-$multipass shell myvm
+$ multipass shell myvm
 ```
 
 
@@ -69,7 +69,7 @@ $ cd QEMU
 $ mkdir qemu-emulate_x86_ubuntu
 $ cd qemu-emulate_x86_ubuntu
 $ mkdir 22.04.3-desktop
-# cd 22.04.3-desktop
+$ cd 22.04.3-desktop
 ```
 
 put there your ISO file!!!
