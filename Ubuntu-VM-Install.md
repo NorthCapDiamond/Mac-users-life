@@ -93,6 +93,8 @@ Start:
 qemu-system-x86_64 -hda ubuntu.qcow2 -boot d -cdrom ubuntu-22.04.3-desktop-amd64.iso  -m 2G -usb -machine pc
 ```
 
+Now you'll have to set up your system. Interface of Ubuntu is going to help you )))
+
 ...💀☠️ 2000 year Later ☠️💀 ...
 
 **Step 5**
