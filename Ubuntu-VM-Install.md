@@ -49,7 +49,7 @@ $multipass shell myvm
 ```
 
 
-##Way 2. If you need X86 version. (Takes a lot of time...😭😭😭)
+## Way 2. If you need X86 version. (Takes a lot of time...😭😭😭)
 
 **Step 1**
 
