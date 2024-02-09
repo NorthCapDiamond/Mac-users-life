@@ -94,8 +94,8 @@ qemu-system-x86_64 -hda ubuntu.qcow2 -boot d -cdrom ubuntu-22.04.3-desktop-amd64
 ```
 
 Now you'll have to set up your system. Interface of Ubuntu is going to help you )))
-
-TURN OFF QEMU AFTER INSTALLATION
+Finally you will reboot the system. 
+After that thing TURN OFF QEMU.
 
 ...💀☠️ 2000 year Later ☠️💀 ...
 
