@@ -6,46 +6,46 @@
 
 Install Multipass
 ```
-$ brew install multipass
+ brew install multipass
 ```
 
 **Step 2** 
 
 Find version of Ubuntu
 ``` 
-$ multipass find
+ multipass find
 ```
 
 Prepare VM
 ```
-$ multipass launch 22.04 -n myvm -c 4 -m 4G -d 50G
+ multipass launch 22.04 -n myvm -c 4 -m 4G -d 50G
 ```
 
 **Step 3**
 Set up your VM environment :
 
 ```
-$ sudo apt update && sudo apr upgrade
-$ sudo apt-get install ubuntukylin-desktop xrdp -y
+ sudo apt update && sudo apr upgrade
+ sudo apt-get install ubuntukylin-desktop xrdp -y
 ```
 
 Configure user:
 
 ```
-$ sudo adduser diamond
-$ sudo usermod -aG sudo diamond
+ sudo adduser diamond
+ sudo usermod -aG sudo diamond
 ```
 
 **Check you current multipass list of instances**:
 
 ```
-$multipass list
+multipass list
 ```
 
 **To start VM**:
 
 ```
-$ multipass shell myvm
+ multipass shell myvm
 ```
 
 
@@ -64,12 +64,12 @@ $ multipass shell myvm
 Create directory for comfortable work with this:
 
 ```
-$ mkdir QEMU
-$ cd QEMU
-$ mkdir qemu-emulate_x86_ubuntu
-$ cd qemu-emulate_x86_ubuntu
-$ mkdir 22.04.3-desktop
-$ cd 22.04.3-desktop
+ mkdir QEMU
+ cd QEMU
+ mkdir qemu-emulate_x86_ubuntu
+ cd qemu-emulate_x86_ubuntu
+ mkdir 22.04.3-desktop
+ cd 22.04.3-desktop
 ```
 
 put there your ISO file!!!
@@ -79,13 +79,13 @@ put there your ISO file!!!
 Configure qemu:
 
 ```
-$ qemu-img create -f qcow2 ubuntu.qcow2 30G
+ qemu-img create -f qcow2 ubuntu.qcow2 30G
 ```
 
 Start:
 
 ```
-$ qemu-system-x86_64 -hda ubuntu.qcow2 -boot d -cdrom ubuntu-22.04.3-desktop-amd64.iso  -m 2G -usb -machine pc
+ qemu-system-x86_64 -hda ubuntu.qcow2 -boot d -cdrom ubuntu-22.04.3-desktop-amd64.iso  -m 2G -usb -machine pc
 ```
 
 ... 2000 year Later ...
