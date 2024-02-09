@@ -21,7 +21,8 @@ Prepare VM
 multipass launch 22.04 -n myvm -c 4 -m 4G -d 50G
 ```
 
-if need:```
+if need:
+```
 multipass shell myvm
 ```
 
