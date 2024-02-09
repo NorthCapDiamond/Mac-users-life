@@ -25,7 +25,7 @@ multipass launch 22.04 -n myvm -c 4 -m 4G -d 50G
 Set up your VM environment :
 
 ```
-sudo apt update && sudo apr upgrade
+sudo apt update && sudo apt upgrade
 sudo apt-get install ubuntukylin-desktop xrdp -y
 ```
 
