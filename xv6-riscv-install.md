@@ -4,14 +4,14 @@
 you can use brew for this. (https://docs.brew.sh/Installation)
 
 ```
-$ brew install qemu
+brew install qemu
 
 ```
 ### 2) Also you need to install RISC-V TOOLS 😩:
 
 ```
-$ brew tap riscv/riscv
-$ brew install riscv-tools
+brew tap riscv/riscv
+brew install riscv-tools
 
 ```
 (This may take a huge amount of time...)
@@ -20,20 +20,20 @@ $ brew install riscv-tools
 create a directory for this and run: 
 
 ```
-$ git clone https://github.com/mit-pdos/xv6-riscv
+git clone https://github.com/mit-pdos/xv6-riscv
 
 ```
 ### 4) run xv6 with qemu 👌:
 
 ```
-$ cd xv6-riscv
-$ make qemu
+cd xv6-riscv
+make qemu
 
 ```
 
 ### Check if it actually works...
 ```
-$ ls
+ls
 .              1 1 1024
 ..             1 1 1024
 README         2 2 2305
