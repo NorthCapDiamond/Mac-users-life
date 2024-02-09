@@ -93,7 +93,7 @@ Start:
 qemu-system-x86_64 -hda ubuntu.qcow2 -boot d -cdrom ubuntu-22.04.3-desktop-amd64.iso  -m 2G -usb -machine pc
 ```
 
-...💀☠️ 2000 year Later☠️💀 ...
+...💀☠️ 2000 year Later ☠️💀 ...
 
 **Step 5**
 
