@@ -1,4 +1,4 @@
-# Install VM with Ubuntu. 
+# Install VM with Linux. 
 
 ## Way1. Easy and fast!😘 (Arm version of Ubuntu)
 
