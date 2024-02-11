@@ -91,7 +91,7 @@ Start:
 qemu-system-x86_64 -hda debian.qcow2 -boot d -cdrom debian-12.4.0-amd64-netinst.iso	debian.qcow2 -m 2G -usb -machine pc
 ```
 
-Now you'll have to set up your system. Interface of Debian is going to help you )))
+Now you'll have to set up your system. (Dont Install visual environment ) Interface of Debian is going to help you )))
 Finally you will reboot the system. 
 After that thing TURN OFF QEMU.
 
