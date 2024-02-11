@@ -58,7 +58,7 @@ multipass shell myvm
 
 **Step 1**
 
-[Install iso file with Ubuntu](https://ubuntu.com/download/desktop)
+[Install iso file with Debian](https://www.debian.org)
 
 **Step 2**
 
@@ -71,10 +71,8 @@ Create directory for comfortable work with this:
 ```
 mkdir QEMU
 cd QEMU
-mkdir qemu-emulate_x86_ubuntu
-cd qemu-emulate_x86_ubuntu
-mkdir 22.04.3-desktop
-cd 22.04.3-desktop
+mkdir qemu-emulate_x86_debian
+cd qemu-emulate_x86_debian
 ```
 
 put there your ISO file!!!
@@ -84,13 +82,13 @@ put there your ISO file!!!
 Configure qemu:
 
 ```
-qemu-img create -f qcow2 ubuntu.qcow2 30G
+qemu-img create -f qcow2 debian.qcow2 30G
 ```
 
 Start:
 
 ```
-qemu-system-x86_64 -hda ubuntu.qcow2 -boot d -cdrom ubuntu-22.04.3-desktop-amd64.iso  -m 2G -usb -machine pc
+qemu-system-x86_64 -hda debian.qcow2 -boot d -cdrom debian-12.4.0-amd64-netinst.iso	debian.qcow2 -m 2G -usb -machine pc
 ```
 
 Now you'll have to set up your system. Interface of Ubuntu is going to help you )))
@@ -104,7 +102,7 @@ After that thing TURN OFF QEMU.
 Launch you Ubuntu with better hardware options :
 
 ```
-qemu-system-x86_64 -hda ubuntu.qcow2 -boot d -m 2G -usb -machine q35 -cpu max -smp cores=8,threads=1,sockets=1  &
+qemu-system-x86_64 -hda debian.qcow2 -boot d -m 2G -usb -machine q35 -cpu max -smp cores=8,threads=1,sockets=1  &
 ```
 
 
