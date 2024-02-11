@@ -91,7 +91,7 @@ Start:
 qemu-system-x86_64 -hda debian.qcow2 -boot d -cdrom debian-12.4.0-amd64-netinst.iso	debian.qcow2 -m 2G -usb -machine pc
 ```
 
-Now you'll have to set up your system. Interface of Ubuntu is going to help you )))
+Now you'll have to set up your system. Interface of Debian is going to help you )))
 Finally you will reboot the system. 
 After that thing TURN OFF QEMU.
 
@@ -99,7 +99,7 @@ After that thing TURN OFF QEMU.
 
 **Step 5**
 
-Launch you Ubuntu with better hardware options :
+Launch you Debian with better hardware options :
 
 ```
 qemu-system-x86_64 -hda debian.qcow2 -boot d -m 2G -usb -machine q35 -cpu max -smp cores=8,threads=1,sockets=1  &
