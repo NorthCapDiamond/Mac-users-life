@@ -53,6 +53,17 @@ multipass list
 multipass shell myvm
 ```
 
+**IF YOU WANT TO DELETE AN INSTANCE**:
+```
+multipass delete keen-yak
+```
+```
+multipass purge
+```
+```
+multipass list
+```
+
 
 ## Way 2. If you need X86 version. (Takes a lot of time... And probably won't work...😭😭😭)
 
