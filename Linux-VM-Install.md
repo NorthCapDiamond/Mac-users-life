@@ -55,7 +55,7 @@ multipass shell myvm
 
 **IF YOU WANT TO DELETE AN INSTANCE**:
 ```
-multipass delete keen-yak
+multipass delete myvm
 ```
 ```
 multipass purge
