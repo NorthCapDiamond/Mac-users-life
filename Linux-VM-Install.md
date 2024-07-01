@@ -113,7 +113,7 @@ After that thing TURN OFF QEMU.
 Start you Debian :
 
 ```
-qemu-system-x86_64 -m 4096 -hda debian.qcow2 -boot d -net nic -net user,hostfwd=tcp::3110-:22&
+qemu-system-x86_64 -m 4096 -hda debian.qcow2 -boot d -net nic -net user,hostfwd=tcp::3110-:22
 ```
 
 
